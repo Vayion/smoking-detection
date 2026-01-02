@@ -3,3 +3,5 @@ Upsample testing set to have more uniform testing (heavily skewed towards non-sm
 Hyperparameters for SVM
 
 Better feature engineering towards triglycerites. Probably employ logarithmic scales
+
+Signifikanztests
