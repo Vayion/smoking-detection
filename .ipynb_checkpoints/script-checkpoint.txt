@@ -1,0 +1,54 @@
+Features of Dataframe describe signals that act both as biological reactions and their visible symptoms
+
+Groups of Features:
+- Vascular health / heart:
+    - systolic / relaxation (symptoms)
+    - HDL, LDL, triglyceride (and Cholesterol)
+
+- Liver:
+    - AST, ALT, gtp
+    - urine protein as symptom
+
+- BMI / Body Fat
+    - height + weight
+
+- remaining 
+    - hearing
+    - eyesight
+    - waist
+    - tartar / dental caries
+    - serum creatinine
+
+Two main focus:
+- ygtp
+- heart via triglyceride
+
+Heart:
+- research shows: triglyceride is higher for smokers, LDL higher, HDL lower
+- partially supported by dataset; stagnant LDL and HDL values, but clear indices through triglyceride
+
+
+Liver:
+    - gtp, ALT and AST as indicators of liver health
+    - gtp more of a pre-warning, with higher ALT and AST linked to direct damage (but later)
+    - the significance of y-gtp is a lot higher, as it is an early indicator, while other 2 are symptoms (check this)
+
+
+
+
+
+Overall Approach
+- Background
+    - Effects of Smoking on Different organs
+        - Heart
+        - Liver
+        - mention lung maybe
+
+- Methodology
+    - introduce Significance Testing
+    - create both Support Vector Machine and RandomForestClassifier
+    - feature engineering
+        - ability to validate feature engineering through significance testing
+- Results
+    - triglyceride and gpt as most noteworthy indicators
+    - weight and height -> bmi more as a symptom

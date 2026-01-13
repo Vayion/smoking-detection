@@ -32,3 +32,23 @@ Liver:
     - gtp, ALT and AST as indicators of liver health
     - gtp more of a pre-warning, with higher ALT and AST linked to direct damage (but later)
     - the significance of y-gtp is a lot higher, as it is an early indicator, while other 2 are symptoms (check this)
+
+
+
+
+
+Overall Approach
+- Background
+    - Effects of Smoking on Different organs
+        - Heart
+        - Liver
+        - mention lung maybe
+
+- Methodology
+    - introduce Significance Testing
+    - create both Support Vector Machine and RandomForestClassifier
+    - feature engineering
+        - ability to validate feature engineering through significance testing
+- Results
+    - triglyceride and gpt as most noteworthy indicators
+    - weight and height -> bmi more as a symptom
